@@ -12,6 +12,9 @@
 
         <!-- Bootstrap JS Bundle -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Font Awesome-->
+        <script src="https://kit.fontawesome.com/2d071e72fa.js" crossorigin="anonymous"></script>
     
         <!-- Stylesheet -->
         <link rel="stylesheet" href="styles.css">
@@ -19,16 +22,56 @@
 </head>
 <body>
    
-    
+    <div id="page">
+
+        <section id="title-header">
+            <header class="site-header" role="banner">
+                <ul class="header-list">
+                    <li>Events</li>
+                    <li>Gallery</li>
+                    <li><img class="title-image" src="/images/sanchez-logo.jpg" /></li>
+                    <li>Menu</li>
+                    <li>Contact</li>
+                </ul>
+            </header>
+        </section>
+
+        <section id="content" class="site-content container-fluid">
+            <div class="home-image">
+                <img class="top-image" src="/images/fruit-tray.png">
+                <div class="slideshow-wrapper">
+                    <div class="mySlides">
+                        <img class="slide-images" src="/images/catering-pose.png">
+                        <h4>We Specialize In Catering</h4>
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img class="slide-images" src="/images/mexican-taco.png">
+                        <h4>Mexican</h4>
+                    </div>
 
 
+                    <div class="mySlides">
+                        <img class="slide-images" src="/images/american-burger.png">
+                        <h4>American</h4>
+                    </div>
+                    
 
+                    <div class="mySlides">
+                        <img class="slide-images" src="/images/italian.png">
+                        <h4>Italian</h4>
+                    </div>
+                    
 
+                    <button class="w3-button w3-display-left " onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                </div> 
+            </div>
+        </section>
 
+    </div>
 
-
-
-        <!-- jQuery Google -->
+    <!-- jQuery Google -->
     <!-- jQuery must be above the JS page -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

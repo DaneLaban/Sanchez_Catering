@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+h4 {
+  position: relative;
+  padding: 100% 0 0 0;
+}
+
+#page {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0 23%;
+  width: 100%;
+}
+
+#title-header {
+  margin: 0 0 10px 0;
+  padding: 50px 0;
+}
+
+.title-image {
+  width: 20%;
+}
+
+.header-list li {
+  display: inline;
+  padding: 0 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#content .top-image {
+  width: 100%;
+  height: 650px;
+}
+
+.slideshow-wrapper {
+  background-color: white;
+  height: 50%;
+  width: 18%;
+  position: absolute;
+  top: 43%;
+  left: 56%;
+}
+
+.slide-images {
+  position: absolute;
+  height: 75%;
+  width: 85%;
+  right: 8%;
+  top: 6%;
+}
+
+.w3-button {
+  outline: 0;
+}
+
+.w3-display-right {
+  position: absolute;
+  left: 90%;
+  bottom: 9%;
+}
+
+.w3-display-left {
+  position: absolute;
+  right: 90%;
+  bottom: 9%;
+}
