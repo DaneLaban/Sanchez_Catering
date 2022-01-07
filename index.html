@@ -21,19 +21,22 @@
         <script src="https://kit.fontawesome.com/2d071e72fa.js" crossorigin="anonymous"></script>
     
         <!-- Stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 <body>
    
+    <!--HEADER-->
         <section id="title-header">
             <header class="site-header" role="banner">
                 <ul class="header-list">
-                    <li><a href="" class="header-items">Events</a></li>
-                    <li><a href="" class="header-items">Gallery</a></li>
+                    
+                    <li><a href="/menu.html" class="header-items">Catering</a></li>
+
                     <li><a href="/index.html"><img src="/images/sanchez-logo.jpg"></a></li>
-                    <li><a href="/menu.html" class="header-items">Menu</a></li>
-                    <li><a href="" class="header-items">Contact</a></li>
+                   
+                    <li><a href="/contact.html" class="header-items">Contact</a></li>
+
                 </ul>
             </header>
         </section>
@@ -119,25 +122,25 @@
              <div id="pagination-wrap">
                <ul>
                </ul>
-             </div>
-             <!-- CONTROLS END -->  
-                    
+             </div>                    
          </div>
-     
       </div>
     </section>
 
     <section id="culture-section">
         <h2 class="culture-heading">We Specialize In Catering</h2>
+        <p class="culture-paragraph">Prepared by our experienced chefs & designed to suit every occasion and palate, affordably.
+            Our friendly & professional team thrive on serving amazing food and delightful experiences that you and your guests will always remember.</p>
 
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="culture-column col-lg-4 col-md-6">
                 <div class="card">
                     <h1 class="culture-def">Mexican</h1>
-                    <img src="/images/mexico-flag.png" class="flags">
+                    <p>Mexican Style Buffet</p>
+                    <P>Tacos, Burritos, Rice, Beans, and More </P>
 
                     <div class="card-body d-grid gap-2">
-                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="menu.html">Learn More</a>
+                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="http://127.0.0.1:5500/menu.html#mexi">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -145,10 +148,11 @@
             <div class="culture-column col-lg-4 col-md-6">
                 <div class="card">
                     <h1 class="culture-def">American</h1>
-                    <img src="/images/american-flag.png" class="flags">
+                    <p>American Style Buffet</p>
+                    <p>Chicken Breast, Pork, Salad, and More</p>
 
                     <div class="card-body d-grid gap-2">
-                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="menu.html">Learn More</a>
+                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="http://127.0.0.1:5500/menu.html#merica">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -156,16 +160,44 @@
             <div class="culture-column col-lg-4 col-md-6">
                 <div class="card">
                     <h1 class="culture-def">Italian</h1>
-                    <img src="/images/italian-flag.png" class="flags">
+                    <p>Italian Style Buffet</p>
+                    <p>Chicken Alfredo, Lasagna, Salad, and More</p>
 
                     <div class="card-body d-grid gap-2">
-                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="menu.html">Learn More</a>
+                        <a class="btn btn-lg btn-block btns-outline-dark" type="button" href="http://127.0.0.1:5500/menu.html#italy">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="culture-column col-lg-4 col-md-6">
+                <div class="card">
+                    <h1 class="culture-def">Appetizers</h1>
+                    <p>For Any Social Gathering</p>
+                    <p>Wings, Meatballs, Pizza Bites, and More</p>
+
+                    <div class="card-body d-grid gap-2">
+                        <a class="btn btn-lg btn-block btn-outline-dark" type="button" href="http://127.0.0.1:5500/menu.html#apps">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="culture-column col-lg-4 col-md-6">
+                <div class="card">
+                    <h1 class="culture-def">Picnic</h1>
+                    <p>Bring The Fun To Your Backyard</p>
+                    <p>Hamburgers, Hot Dogs, Salads, and More</p>
+
+                    <div class="card-body d-grid gap-2">
+                        <a class="btn btn-lg btn-block btn-outline-dark" type="button" href="http://127.0.0.1:5500/menu.html#picnic">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--FOOTER-->
     <section id="footer">
         <div class="row">
             <div class="social-media-icons col-lg-4 col-md-6">
@@ -174,7 +206,7 @@
             </div>
 
             <div class="contact-column col-lg-4 col-md-6">
-                <p class="contact-us">Contact Us</p>
+                <p class="footer-contact">Contact Us</p>
                 <span class="location">430 River Rd # D</span> 
                 <span class="location">Corona, CA 92880</span>
                 <span class="location">T: 951-371-5401</span>
@@ -182,17 +214,16 @@
             </div>
 
             <div class="footer-menu-column col-lg-4 col-md-6">
-                <a class="footer-menu" href="menu.html">Events</a>
-                <a class="footer-menu" href="menu.html">Gallery</a>
-                <a class="footer-menu" href="menu.html">Menu</a>
-                <a class="footer-menu" href="menu.html">Contact</a>
+                <a class="footer-menu" href="index.html">Home</a>
+                <a class="footer-menu" href="menu.html">Catering</a>
+                <a class="footer-menu" href="contact.html">Contact</a>
             </div>
         </div>    
     </section>
 
     
 
-
+    <!-- TOP OF PAGE BUTTON -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
     <!-- jQuery Google -->

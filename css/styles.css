@@ -9,7 +9,6 @@ body {
   text-align: center;
   width: auto;
   background-color: green;
-  padding: 0 5%;
 }
 
 ul {
@@ -27,32 +26,9 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
-.icons {
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-  float: left;
-}
-
-.secondary-items {
-  background-color: rgba(245, 245, 220, 0.89);
-  bottom: 13%;
-  position: absolute;
-  width: 100%;
-  height: 100px;
-}
-
-.beige-bar-items {
-  float: left;
-  margin: 0 1.5%;
+p {
   font-family: "Roboto Slab", serif;
-}
-
-.secondary-images {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0 5px 0;
+  font-size: 20px;
 }
 
 /* HEADER STYLE */
@@ -98,8 +74,36 @@ h3 {
   overflow: hidden;
 }
 
-/* SLIDESHOW STYLE */
+/*---------------BEIGE ITEMS--------------*/
+.icons {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  float: left;
+}
 
+.secondary-items {
+  background-color: rgba(245, 245, 220, 0.89);
+  bottom: 13%;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.beige-bar-items {
+  float: left;
+  margin: 0 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.secondary-images {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 5px 0;
+}
+
+/* SLIDESHOW STYLE */
 .mySlides {
   width: 600px;
   height: 400px;
@@ -175,12 +179,10 @@ h3 {
   cursor: pointer;
   background: rgba(0, 0, 0, 0.1);
   z-index: 100;
-
-  -webkit-user-select: none;
+  /* -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
-  -ms-user-select: none;
-
+  -ms-user-select: none; */
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
@@ -262,21 +264,36 @@ h3 {
 /* CULTURE SECTION */
 #culture-section {
   margin: 5% 0 5% 0;
+  padding: 0 5%;
+}
+
+#culture-section .row a:hover {
+  background-color: rgb(51, 46, 46);
+  color: white;
 }
 
 .culture-heading {
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
   font-family: "Lobster", cursive;
   font-size: 100px;
   color: white;
   text-shadow: 5px 5px 5px black, 5px 5px 5px black;
 }
 
+.culture-paragraph {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 55%;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
 .culture-def {
   background-color: rgba(0, 128, 0, 0.541);
   display: inline-block;
   width: 90%;
-  margin: 3% 5%;
+  margin: 48px auto;
   text-align: center;
 }
 
@@ -286,15 +303,12 @@ h3 {
   border-radius: 0;
 }
 
-.flags {
-  width: 100%;
-  height: 300px;
-}
-
 .btn {
-  height: 50px;
+  margin-top: 100px;
   background-color: #d55427;
   border-radius: 0;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .card-body {
@@ -302,18 +316,133 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
-/* FOOTER */
-#footer {
-  background: #e0ddda;
-  padding: 40px;
-  text-align: center;
-  margin: 2% auto;
-  font-size: 15px;
+/*-------------------------- MENU CSS -------------------------*/
+
+/*TOP OF MENU PAGE*/
+.fine-catering {
+  background-image: url(/images/backyard.jpg);
+  align-content: center;
+  width: 100%;
+  height: 650px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-orientation: from-image;
+}
+
+.our-menu {
+  letter-spacing: 2px;
+  margin: 0 0 -30px 0;
+  padding: 15% 0 0 0;
+  font-family: "Lobster", cursive;
+  font-size: 150px;
+  color: white;
+  text-shadow: 5px 5px 5px black, 5px 5px 5px black;
+}
+
+.catering-links {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0 0.5%;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  display: inline-block;
+  top: 5%;
+}
+
+.catering-links:hover {
+  color: red;
+}
+
+.our-description {
+  color: white;
   font-family: "Roboto Slab", serif;
   letter-spacing: 1px;
 }
 
-.contact-us {
+/*MEXICAN MENU SECTION*/
+#catering-memo {
+  font-family: "Roboto Slab", serif;
+  margin: 12% auto;
+  background-color: white;
+  width: 100%;
+  padding: 0;
+}
+
+.top-memo {
+  color: black;
+  margin: 2% auto;
+  width: 65%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.catering {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: red;
+  text-shadow: 3px 3px yellow;
+}
+
+div.menu-card {
+  height: 100%;
+  background-color: #e0ddda;
+}
+
+#menu-section h1 {
+  margin: 10% 0 2% 0;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.our-menu-column h2 {
+  font-family: "Roboto Slab", serif;
+  margin: 8% 0;
+  text-decoration: underline 2px;
+}
+
+.our-menu-column p {
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab", serif;
+}
+
+.our-menu-column li {
+  list-style: disc;
+  text-align: left;
+  color: #555;
+  margin-left: 5%;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 1px;
+}
+
+.choices {
+  font-size: 12px;
+  width: 75%;
+  text-align: left;
+}
+
+.msb {
+  display: inline-block;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+}
+
+/*-----------------FOOTER------------------------- */
+#footer {
+  background: #e0ddda;
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.footer-contact {
   width: 100%;
   font-size: 20px;
   font-weight: 700;
@@ -328,44 +457,21 @@ h3 {
 }
 
 .copyright {
-  margin: 0%;
   width: 50%;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   color: rgb(114, 114, 114);
   line-height: 20px;
-  font-size: 10px;
 }
 
 .site {
-  font-size: 10px;
+  font-size: 15px;
   text-decoration: none;
   color: #555;
 }
 
 .site:hover {
   color: #d55427;
-}
-
-/*SCROLL TO TOP BUTTON*/
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 5%;
-  right: 1.4%;
-  z-index: 99;
-  border: 1px solid white;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 0 10px;
-  border-radius: 50%;
-  font-size: 30px;
-}
-
-#myBtn:hover {
-  background-color: #555;
 }
 
 /* Style all font awesome icons */
@@ -377,6 +483,7 @@ h3 {
   margin: 3% 1%;
   border-radius: 50%;
 }
+
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
@@ -407,4 +514,25 @@ h3 {
 
 .footer-menu:hover {
   color: black;
+}
+
+/*-------------------SCROLL TO TOP BUTTON--------------------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 1.4%;
+  z-index: 99;
+  border: 1px solid white;
+  outline: none;
+  background-color: #e0ddda;
+  color: black;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
