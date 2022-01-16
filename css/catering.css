@@ -18,11 +18,6 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-ul.header-list {
-  padding: 0;
-  margin: 0 5%;
-}
-
 /*--------MENU ITEMS/ENTREES--------*/
 .rightItems,
 .leftItems,
